@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.head {
+    width: 300px;
+    text-align: center;
+    font: bold normal 18px Arial;
+    margin: 0px auto;
+}
+
+.container {
+    height: 406px;
+    width: 350px;
+    margin: 40px auto;
+    background-color: #c25013;
+    border: 3px inset #eac595;
+    border-radius: 17px;
+    padding: 40px 30px;
+}
+
+.screen {
+    height: 50px;
+    width: 300px;
+    margin: 10px;
+    padding: 16px 10px;
+    border: 1px solid #283d6d;
+    border-radius: 11px;
+    background-color: antiquewhite;
+}
+
+#numdisplay {
+    height: 42px;
+    text-align: right;
+    font: normal normal 43px Arial;
+}
+
+#numdisplay span {
+    opacity: 0.5;
+}
+
+.keypad {
+    width: 290px;
+    height: 206px;
+    border: 1px dotted #27b04a;
+    border-radius: 14px;
+    margin: 14px;
+    padding: 12px;
+}
+
+input {
+    height: 47px;
+    width: 65px;
+    margin: 2px;
+    padding: 4px;
+    border-radius: 10px;
+    font: bold normal 30px Verdana;
+}
+
+input:hover {
+    background-color: silver;
+}
+
+.specialbuttons {
+    height: 50px;
+    width: 300px;
+    margin: 0px auto;
+}
+
+.specialbuttons input {
+    width: 143px;
+    font-size: 20px;
+}
+
+
+footer {
+    height: 40px;
+    text-align: center;
+    font: bold normal 30px Verdana;
+    background-color: black;
+    color: gold;
+}
